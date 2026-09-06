@@ -831,3 +831,18 @@ nav ul a {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.ai-chatbot-page .project-hero {
+    text-align: center;
+}
+
+.ai-chatbot-page .project-subtitle {
+    font-size: 1.1rem;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+.ai-chatbot-page .project-image {
+    max-width: 700px;
+    width: 100%;
+    border-radius: 18px;
+}
