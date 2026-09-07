@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +12,19 @@
 
 <body>
 
+    <!-- =========================
+         Header
+    ========================== -->
+
     <header>
         <nav>
+
             <a href="#home" class="logo">
-    <img src="logo/logo11 (1).png" alt="AL-MAMOORI Logo">
-</a>
+                <img
+                    src="logo/logo11 (1).png"
+                    alt="AL-MAMOORI Logo"
+                >
+            </a>
 
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -23,233 +32,382 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <button id="dark-mode-button">🌙 Dark Mode</button>
+
+            <button id="dark-mode-button">
+                🌙 Dark Mode
+            </button>
+
         </nav>
     </header>
 
+
+    <!-- =========================
+         Main
+    ========================== -->
+
     <main>
 
-<section id="home">
+        <!-- =========================
+             Home
+        ========================== -->
 
-    <div class="home-content">
+        <section id="home">
 
-        <div class="home-text">
-            <h1>
-                Hello, I'm <span>Mohammed</span> 👋
-            </h1>
+            <div class="home-content">
 
-            <p>I'm a Web Developer.</p>
+                <div class="home-text">
 
-            <button id="projects-button">
-                View My Projects
-            </button>
-        </div>
+                    <h1>
+                        Hello, I'm <span>Mohammed</span> 👋
+                    </h1>
 
-        <div class="home-logo">
-            <img src="logo/logo11 (2).png"AM Logo">
-        </div>
+                    <p>I'm a Web Developer.</p>
 
-    </div>
+                    <button id="projects-button">
+                        View My Projects
+                    </button>
 
-</section>
+                </div>
+
+
+                <div class="home-logo">
+
+                    <img
+                        src="logo/logo11 (2).png"
+                        alt="AL-MAMOORI Logo"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             About
+        ========================== -->
 
         <section id="about">
-    <h2>About Me</h2>
 
-    <div class="about-content">
-        <div>
-            <h3>Who am I?</h3>
+            <h2>About Me</h2>
 
-            <p>
-                I'm a passionate web developer who enjoys
-                creating modern and user-friendly websites.
-            </p>
+            <div class="about-content">
 
-            <p>
-                I'm currently learning HTML, CSS and JavaScript
-                and building projects to improve my skills.
-            </p>
-        </div>
+                <div>
 
-        <div>
-            <h3>My Skills</h3>
+                    <h3>Who am I?</h3>
 
-            <ul class="skills">
-                <li>Python</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>CustomTkinter</li>
-                <li>SQLite</li>
-                <li>Git & GitHub</li>
-                <li>Ollama</li>
-            </ul>
-        </div>
-        </div>
+                    <p>
+                        I'm a passionate web developer who enjoys
+                        creating modern and user-friendly websites.
+                    </p>
+
+                    <p>
+                        I'm currently learning HTML, CSS and JavaScript
+                        and building projects to improve my skills.
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <h3>My Skills</h3>
+
+                    <ul class="skills">
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>CustomTkinter</li>
+                        <li>SQLite</li>
+                        <li>Git & GitHub</li>
+                        <li>Ollama</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
         </section>
-<section id="projects">
-    <h2>My Projects</h2>
 
-    <div class="projects-container">
 
-        <!-- Expense Tracker -->
-        <div class="project-card">
+        <!-- =========================
+             Projects
+        ========================== -->
 
-            <div class="project-image-wrapper">
-                <img
-                    src="logo/expense-tracker.png"
-                    alt="Expense Tracker Python Application"
-                    class="project-image"
-                >
-            </div>
+        <section id="projects">
 
-            <div class="project-content">
+            <h2>My Projects</h2>
 
-                <span class="project-type">DESKTOP APP</span>
+            <div class="projects-container">
 
-                <h3>Expense Tracker</h3>
 
-                <p>
-                    Desktop expense management application built with
-                    Python, Tkinter and SQLite.
-                </p>
+                <!-- Expense Tracker -->
 
-                <div class="project-tags">
-                    <span>Python</span>
-                    <span>Tkinter</span>
-                    <span>SQLite</span>
+                <div class="project-card">
+
+                    <div class="project-image-wrapper">
+
+                        <img
+                            src="logo/expense-tracker.png"
+                            alt="Expense Tracker Python Application"
+                            class="project-image"
+                        >
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <span class="project-type">
+                            DESKTOP APP
+                        </span>
+
+                        <h3>Expense Tracker</h3>
+
+                        <p>
+                            Desktop expense management application
+                            built with Python, Tkinter and SQLite.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Tkinter</span>
+                            <span>SQLite</span>
+                        </div>
+
+                        <a
+                            href="expense-tracker.html"
+                            class="project-button"
+                        >
+                            View Project →
+                        </a>
+
+                    </div>
+
                 </div>
 
-                <a href="expense-tracker.html" class="project-button">
-                    View Project →
-                </a>
 
-            </div>
-        </div>
+                <!-- File Organizer -->
+
+                <div class="project-card">
+
+                    <div class="project-image-wrapper">
+
+                        <img
+                            src="logo/organizer.jpg"
+                            alt="File Organizer Python Application"
+                            class="project-image"
+                        >
+
+                    </div>
 
 
-        <!-- File Organizer -->
-        <div class="project-card">
+                    <div class="project-content">
 
-            <div class="project-image-wrapper">
-                <img
-                    src="logo/organizer.jpg"
-                    alt="File Organizer Python Application"
-                    class="project-image"
-                >
-            </div>
+                        <span class="project-type">
+                            DESKTOP APP
+                        </span>
 
-            <div class="project-content">
+                        <h3>File Organizer</h3>
 
-                <span class="project-type">DESKTOP APP</span>
+                        <p>
+                            Desktop application that automatically
+                            organizes files into folders based on
+                            their file type.
+                        </p>
 
-                <h3>File Organizer</h3>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>CustomTkinter</span>
+                        </div>
 
-                <p>
-                    Desktop application that automatically organizes files
-                    into folders based on their file type.
-                </p>
+                        <a
+                            href="file-organizer.html"
+                            class="project-button"
+                        >
+                            View Project →
+                        </a>
 
-                <div class="project-tags">
-                    <span>Python</span>
-                    <span>CustomTkinter</span>
+                    </div>
+
                 </div>
 
-                <a href="file-organizer.html" class="project-button">
-                    View Project →
-                </a>
+
+                <!-- AI Chatbot -->
+
+                <div class="project-card">
+
+                    <div class="project-image-wrapper">
+
+                        <img
+                            src="logo/chatbot.jpg"
+                            alt="AI Chatbot Python Application"
+                            class="project-image"
+                        >
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <span class="project-type">
+                            AI DESKTOP APP
+                        </span>
+
+                        <h3>AI Chatbot</h3>
+
+                        <p>
+                            AI-powered desktop chatbot built with
+                            Python, Ollama and Llama 3.2.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>CustomTkinter</span>
+                            <span>Ollama</span>
+                        </div>
+
+                        <a
+                            href="ai-chatbot.html"
+                            class="project-button"
+                        >
+                            View Project →
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Password Manager -->
+
+                <div class="project-card">
+
+                    <div class="project-image-wrapper">
+                        <img
+                            src="logo/password-manager.jpg"
+                            alt="Password Manager Python Application"
+                            class="project-image"
+                    >
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-type">
+                            DESKTOP APP
+                        </span>
+
+                        <h3>Password Manager</h3>
+
+                        <p>
+                            A desktop password manager built with
+                            Python, CustomTkinter, SQLite and
+                            Fernet encryption.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>CustomTkinter</span>
+                            <span>SQLite</span>
+                            <span>Fernet</span>
+                        </div>
+
+                        <a
+                            href="password-manager.html"
+                            class="project-button"
+                        >
+                            View Project →
+                        </a>
+
+                    </div>
+
+                </div>
+
 
             </div>
-        </div>
 
-<div class="project-card">
+        </section>
 
-    <div class="project-image-wrapper">
-        <img
-            src="logo/chatbot.jpg"
-            alt="AI Chatbot Python Application"
-            class="project-image"
-        >
-    </div>
 
-    <div class="project-content">
-
-        <span class="project-type">AI DESKTOP APP</span>
-
-        <h3>AI Chatbot</h3>
-
-        <p>
-            AI-powered desktop chatbot built with Python,
-            Ollama and Llama 3.2.
-        </p>
-
-        <div class="project-tags">
-            <span>Python</span>
-            <span>CustomTkinter</span>
-            <span>Ollama</span>
-        </div>
-
-        <a href="ai-chatbot.html" class="project-button">
-            View Project →
-        </a>
-
-    </div>
-</div>
-
-    </div>
-</section>
+        <!-- =========================
+             Contact
+        ========================== -->
 
         <section id="contact">
-    <h2>Contact Me</h2>
 
-    <form
-    class="contact-form"
-    id="contact-form"
-    action="https://formspree.io/f/xjyvrzjk"
-    method="POST"
->
+            <h2>Contact Me</h2>
 
-        <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Your Name"
-            required
-        >
+            <form
+                class="contact-form"
+                id="contact-form"
+                action="https://formspree.io/f/xjyvrzjk"
+                method="POST"
+            >
 
-        <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Your Email"
-            required
-        >
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                >
 
-        <textarea
-            id="message"
-            name="message"
-            placeholder="Your Message"
-            rows="6"
-            required
-        ></textarea>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                >
 
-        <button type="submit">
-            Send Message
-        </button>
-        <p id="form-status"></p>
+                <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Your Message"
+                    rows="6"
+                    required
+                ></textarea>
 
-    </form>
-</section>
+                <button type="submit">
+                    Send Message
+                </button>
+
+                <p id="form-status"></p>
+
+            </form>
+
+        </section>
 
     </main>
 
-<footer>
-    <img src="logo/logo11 (3).png"AL-MAMOORI Logo" class="footer-logo">
 
-    <p>© 2026 <span>AL-MAMOORI</span>. All rights reserved.</p>
-</footer>
+    <!-- =========================
+         Footer
+    ========================== -->
+
+    <footer>
+
+        <img
+            src="logo/logo11 (3).png"
+            alt="AL-MAMOORI Logo"
+            class="footer-logo"
+        >
+
+        <p>
+            © 2026 <span>AL-MAMOORI</span>.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
 
     <script src="script.js"></script>
 
 </body>
+
 </html>
